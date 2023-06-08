@@ -78,7 +78,7 @@ def stats(update, context):
     mem_a = get_readable_file_size(memory.available)
     mem_u = get_readable_file_size(memory.used)
     if config_dict['EMOJI_THEME']:
-            stats = f'<b>       📊 Bot Statistics </b>\n' \
+            stats = f'<b>       SP Bot Statistics </b>\n' \
                     f'🛠 Updated On: {last_commit}\n'\
                     f'⏰️ Uptime: {currentTime}\n'\
                     f'🤖 Version: {version}\n'\
@@ -91,7 +91,7 @@ def stats(update, context):
                     f'🔻 Download Data: {recv}\n\n'
 
     else:
-            stats = f'<b>    📊 Bot Statistics </b>\n' \
+            stats = f'<b>    SP Bot Statistics </b>\n' \
                     f'Updated On: {last_commit}\n'\
                     f'Uptime: {currentTime}\n'\
                     f'Version: {version}\n'\
@@ -124,7 +124,7 @@ def stats(update, context):
         user_task = 'No Limit Set' if USER_TASKS_LIMIT == '' else f'{USER_TASKS_LIMIT} Tasks/user'
 
         if config_dict['EMOJI_THEME']: 
-            stats += f'<b>🔢 Bot Limitations </b>\n'\
+            stats += f'<b>SP Bot Limitations </b>\n'\
                      f'🧲 Torrent/Direct: {torrent_direct}\n'\
                      f'🔐 Zip/Unzip: {zip_unzip}\n'\
                      f'🔷 Leech: {leech_limit}\n'\
@@ -133,7 +133,7 @@ def stats(update, context):
                      f'💣 Total Tasks: {total_task}\n'\
                      f'🔫 User Tasks: {user_task}\n\n'
         else: 
-            stats += f'<b>🔢 Bot Limitations </b>\n'\
+            stats += f'<b>SP Bot Limitations </b>\n'\
                      f'Torrent/Direct: {torrent_direct}\n'\
                      f'Zip/Unzip: {zip_unzip}\n'\
                      f'Leech: {leech_limit}\n'\
