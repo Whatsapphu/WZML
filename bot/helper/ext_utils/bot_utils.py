@@ -259,7 +259,7 @@ def get_readable_message():
                # msg += f"<b>《<ahref='https://t.me/+2hoczTe39cI1Y2Rh'>𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝚂𝚘𝚞𝚛𝚌𝚎𝙿𝚕𝚎𝚊𝚜𝚎</a>》</b>\n\n"
                 msg += f"<b><a href='{download.message.link}'>{download.status()}</a>: </b>"
                 msg += f"<code>{escape(str(download.name()))}</code>"
-                msg += f"<b>《<ahref='https://t.me/+2hoczTe39cI1Y2Rh'>𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝚂𝚘𝚞𝚛𝚌𝚎𝙿𝚕𝚎𝚊𝚜𝚎</a>》</b>\n\n"
+               # msg += f"<b>《<ahref='https://t.me/+2hoczTe39cI1Y2Rh'>𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝚂𝚘𝚞𝚛𝚌𝚎𝙿𝚕𝚎𝚊𝚜𝚎</a>》</b>\n\n"
             if download.status() not in [MirrorStatus.STATUS_SEEDING, MirrorStatus.STATUS_SPLITTING, MirrorStatus.STATUS_CONVERTING, MirrorStatus.STATUS_QUEUEDL, MirrorStatus.STATUS_QUEUEUP]:
                 if config_dict['EMOJI_THEME']:
                     msg += f"<b>《<ahref='https://t.me/+2hoczTe39cI1Y2Rh'>𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝚂𝚘𝚞𝚛𝚌𝚎𝙿𝚕𝚎𝚊𝚜𝚎</a>》</b>\n\n"
