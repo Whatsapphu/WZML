@@ -262,7 +262,7 @@ def get_readable_message():
                # msg += f"<b>《<ahref='https://t.me/+2hoczTe39cI1Y2Rh'>𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝚂𝚘𝚞𝚛𝚌𝚎𝙿𝚕𝚎𝚊𝚜𝚎</a>》</b>\n\n"
             if download.status() not in [MirrorStatus.STATUS_SEEDING, MirrorStatus.STATUS_SPLITTING, MirrorStatus.STATUS_CONVERTING, MirrorStatus.STATUS_QUEUEDL, MirrorStatus.STATUS_QUEUEUP]:
                 if config_dict['EMOJI_THEME']:
-                    msg += f"<b><a href='https://t.me/+2hoczTe39cI1Y2Rh'>𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝚂𝚘𝚞𝚛𝚌𝚎𝙿𝚕𝚎𝚊𝚜𝚎</a></b>\n\n"
+                    #msg += f"<b><a href='https://t.me/+2hoczTe39cI1Y2Rh'>𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝚂𝚘𝚞𝚛𝚌𝚎𝙿𝚕𝚎𝚊𝚜𝚎</a></b>\n\n"
                     msg += f"\n<b></b>{get_progress_bar_string(download)} {download.progress()}"
                     msg += f"\n<b>🔄 Done:</b> {get_readable_file_size(download.processed_bytes())} of {download.size()}"
                     msg += f"\n<b>⚡ Speed:</b> {download.speed()}"
@@ -271,7 +271,7 @@ def get_readable_message():
                     msg += f"\n<b>⛓️ Engine:</b> {download.eng()}"
                     
                 else:
-                    msg += f"<b><a href='https://t.me/+2hoczTe39cI1Y2Rh'>𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝚂𝚘𝚞𝚛𝚌𝚎𝙿𝚕𝚎𝚊𝚜𝚎</a></b>\n\n"
+                    #msg += f"<b><a href='https://t.me/+2hoczTe39cI1Y2Rh'>𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝚂𝚘𝚞𝚛𝚌𝚎𝙿𝚕𝚎𝚊𝚜𝚎</a></b>\n\n"
                     msg += f"\n<b></b>{get_progress_bar_string(download)} {download.progress()}"
                     msg += f"\n<b>Done:</b> {get_readable_file_size(download.processed_bytes())} of {download.size()}"
                     msg += f"\n<b>Speed:</b> {download.speed()}"
