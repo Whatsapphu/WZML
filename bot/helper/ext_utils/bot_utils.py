@@ -242,7 +242,7 @@ def get_progress_bar_string(status):
 
 def get_readable_message():
     with download_dict_lock:
-        msg = f"_____𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝚂𝚘𝚞𝚛𝚌𝚎𝙿𝚕𝚎𝚊𝚜𝚎_____"
+        msg = f"__𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝚂𝚘𝚞𝚛𝚌𝚎𝙿𝚕𝚎𝚊𝚜𝚎__"
         if STATUS_LIMIT := config_dict['STATUS_LIMIT']:
             tasks = len(download_dict)
             global pages
