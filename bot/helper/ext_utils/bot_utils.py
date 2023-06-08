@@ -373,7 +373,7 @@ def get_readable_message():
         buttons = ButtonMaker()
         buttons.sbutton("Refresh", "status refresh")
         buttons.sbutton("Statistics", str(THREE))
-        buttons.buildbutton(f"Repo", f"https://github.com/weebzone/WZML")
+        #buttons.buildbutton(f"Repo", f"https://github.com/weebzone/WZML")
         buttons.sbutton("Close", "status close")
         sbutton = buttons.build_menu(2)
         
