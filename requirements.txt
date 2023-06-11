@@ -24,7 +24,7 @@ pillow
 psutil
 psycopg2-binary
 pybase64
-pyrogram==2.0.66
+pyrogram
 python-dotenv
 python-magic
 python-telegram-bot==13.15
@@ -35,7 +35,7 @@ selenium
 telegraph
 tenacity
 tgCrypto
-urllib3==1.26.15
+urllib3
 xattr
 yt-dlp
 waybackpy
