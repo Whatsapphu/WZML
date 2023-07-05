@@ -189,7 +189,7 @@ class EngineStatus:
 
 
 def get_readable_message():
-    msg = ""
+    msg = f'<a href="https://t.me/h2dts"><b>Source Please</b></a>\n\n'
     button = None
     STATUS_LIMIT = config_dict['STATUS_LIMIT']
     tasks = len(download_dict)
